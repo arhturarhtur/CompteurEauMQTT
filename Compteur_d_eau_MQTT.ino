@@ -2,15 +2,12 @@
 
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
+#include <SSID-pwd.h>
 
-/************************* Point d'acces Wifi *********************************/
-
-const char* ssid = "icla";
-const char* password = "%LeAs2c@";
 
 /************************* Serveur MQTT *********************************/
 
-const char* mqtt_server = "192.168.0.20";
+const char* mqtt_server = "192.168.0.143";
 const char* mqttTopic = "domoticz/in";
 
 
